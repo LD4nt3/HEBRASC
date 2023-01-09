@@ -156,12 +156,7 @@ def draw_centroids_on_image(output_image, json_results, depth):
 if __name__== "__main__":    
     while(1):
         
-        #Start reading camera feed (https://answers.opencv.org/question/227535/solvedassertion-error-in-video-capturing/))
-        #cap = cv2.VideoCapture(0)
-        #cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-        #cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
-        #Now Place the base_plate_tool on the surface below the camera.
         while(1):
             frame = get_video()
             depth = get_depth()
@@ -172,37 +167,24 @@ if __name__== "__main__":
             if k == 27: #exit by pressing Esc key
                 cv2.destroyAllWindows()
                 sys.exit()
-            #if k == 13: #execute detection by pressing Enter key           
-            #image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB) # OpenCV image (BGR to RGB)
-            image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB) # OpenCV image (BGR to RGB)
-            # Inference
-            results = _model(image) #includes NMS
-            # Results
-            #results.print()  # .print() , .show(), .save(), .crop(), .pandas(), etc.
-            #results.show()
-            results.xyxy[0]  # im predictions (tensor)
-            results.pandas().xyxy[0]  # im predictions (pandas)
-            #      xmin    ymin    xmax   ymax  confidence  class    name
-            # 0  749.50   43.50  1148.0  704.5    0.874023      0  person
-            # 2  114.75  195.75  1095.0  708.0    0.624512      0  person
-            # 3  986.00  304.00  1028.0  420.0    0.286865     27     tie
-            
-            #Results in JSON
-            json_results = results.pandas().xyxy[0].to_json(orient="records") # im predictions (JSON)
+       
+            image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB) 
+            results = _model(image) 
+
+            results.xyxy[0]  
+            results.pandas().xyxy[0]  
+
+            json_results = results.pandas().xyxy[0].to_json(orient="records")
             print(json_results)
             if json_results!='[]':
-            #print(type(frame))
-            #cv2.imshow('Frame from Webcam', image)
-            #cv2.waitKey(0)
+
                 results.render()  # updates results.imgs with boxes and labels                    
                 output_image = results.imgs[0] #output image after rendering
                 output_image = cv2.cvtColor(output_image, cv2.COLOR_RGB2BGR)
                 
                 output_image = draw_centroids_on_image(output_image, json_results, depth) # Draw Centroids on the deteted objects and returns updated image
                 cv2.imshow("Output", output_image) #Show the output image after rendering
-                #if cv2.waitKey(20) & 0xFF == ord('q'):
-                #    break
-                
+
                 cv2.waitKey(1)
                 print(Rball,Rbox)#reset falta
                 if Rball and Rbox:
@@ -260,7 +242,6 @@ if __name__== "__main__":
                             ax = d4  
                             # theta, alpha, r, and d
                             #rz rx tx tz?
-                            #sym.init_printing()
                             A_r1,A_r2,A_r3 = sym.symbols('A_r1,A_r2,A_r3')
                             eqn1 = sym.Eq(126*cos(A_r1)*cos(A_r2 + pi/2) - 20*sin(A_r1) + 90*cos(A_r1)*cos(A_r2 + pi/2)*cos(A_r3 - pi/2) - 90*cos(A_r1)*sin(A_r2 + pi/2)*sin(A_r3 - pi/2),px)
                             eqn2 = sym.Eq(20*cos(A_r1) + 126*cos(A_r2 + pi/2)*sin(A_r1) + 90*cos(A_r2 + pi/2)*cos(A_r3 - pi/2)*sin(A_r1) - 90*sin(A_r1)*sin(A_r2 + pi/2)*sin(A_r3 - pi/2),py)
@@ -382,11 +363,9 @@ if __name__== "__main__":
                                     else:
                                         paso=-10
                                     for x in range (int(zz),int(angle2+1),paso):
-                                        #zz=x
                                         print(x)
                                         kit.servo[3].angle = x
                                         time.sleep(1.2)
-                                        #0print(zz)
                                     kit.servo[3].angle = angle2
                                     time.sleep(1.1)
                                     kit.servo[8].angle = angle5
@@ -408,7 +387,6 @@ if __name__== "__main__":
                                     if not xc:
                                         kit.servo[8].angle = 170
                                         time.sleep(1.8)
-                                    #print(x)
 
                                 #else:
                                  #   if x:
