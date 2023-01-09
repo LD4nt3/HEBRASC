@@ -71,24 +71,14 @@ R06 = np.array([[0.0, 1.0, 0.0],
 Rball=[]
 Rbox=[]
 
-# https://github.com/ultralytics/yolov5/issues/6460#issuecomment-1023914166
-# https://github.com/ultralytics/yolov5/issues/36
-
-
 # Loading Model
 #model = torch.hub.load('C:/Users/17R4/Desktop/proyecto/yolov5', 'custom', path="C:/Users/17R4/Desktop/proyecto/yolov5/runs/train/exp2/weights/best.pt", source='local')  # local repoprint(cv2.__version__)
 _model = torch.hub.load('/home/chugv2/Desktop/Proyecto/yolov7',
                       'custom', "bestv0.pt", source='local')  # local repo
 model = torch.load("bestv0.pt")
-#model = torch.hub.load("yolov5", 'custom', path="yolov5/runs/train/exp/weights/yolo_weights.pt", source='local', force_reload=True)  # local repo
-#model = torch.hub.load("C:/Users/17R4/Desktop/proyecto/yolov5/runs/train/exp2/weights/", 'custom', path="best.pt", source='local')
 
 # Configuring Model
 
-'''
-
-model = torch.hub.load('ultralytics/yolov5', 'yolov5x')
-'''
 
 #model.classes =66
 #model.cpu()  #  .cpu() ,or .cuda()
