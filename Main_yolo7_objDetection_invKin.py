@@ -72,15 +72,12 @@ Rball=[]
 Rbox=[]
 
 # Loading Model
-#model = torch.hub.load('C:/Users/17R4/Desktop/proyecto/yolov5', 'custom', path="C:/Users/17R4/Desktop/proyecto/yolov5/runs/train/exp2/weights/best.pt", source='local')  # local repoprint(cv2.__version__)
 _model = torch.hub.load('/home/chugv2/Desktop/Proyecto/yolov7',
                       'custom', "bestv0.pt", source='local')  # local repo
 model = torch.load("bestv0.pt")
 
 # Configuring Model
 
-
-#model.classes =66
 #model.cpu()  #  .cpu() ,or .cuda()
 _model.conf = 0.7  # NMS confidence threshold
 #model.iou = 0.45  # NMS IoU threshold
