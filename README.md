@@ -30,13 +30,20 @@ My Environment OS: Raspberry Pi OS Python: 3.8.12 PyTorch: 1.13.0 OpenCV-Python
   style="display: inline-block; margin: 0 auto; max-width: 300px">
   
 <img
-  src="CAD MODELS/v2/Arm_V2-1.png"
+  src="CAD MODELS/v2/ArmV2(physical-2).jpeg"
   alt="Alt 2"
   title="img"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
   
-<img
-  src="CAD MODELS/v2/ArmV2(physical-2).jpeg"
+  # More details
+ <img
+  src="Tests/matlab_view1.png"
+  alt="Alt 2"
+  title="img"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+ <img
+  src="Tests/model_precision.png"
   alt="Alt 2"
   title="img"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
