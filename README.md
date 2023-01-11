@@ -8,4 +8,9 @@ My Environment OS: Raspberry Pi OS Python: 3.8.12 PyTorch: 1.13.0 OpenCV-Python
   alt="Alt"
   title="Det"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
+  <img
+  src="CAD MODELS/v2/Arm_V2-1.png"
+  alt="Alt"
+  title="Det"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
   
