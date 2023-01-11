@@ -27,17 +27,37 @@ My Environment OS: Raspberry Pi OS Python: 3.8.12 PyTorch: 1.13.0 OpenCV-Python
   src="CAD MODELS/v2/ArmV2(physical-1).jpeg"
   alt="Alt 2"
   title="img"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
   
 <img
   src="CAD MODELS/v2/ArmV2(physical-2).jpeg"
   alt="Alt 2"
   title="img"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
   
   # More details
+  -Matlab 3d Visualisation()
+  
+ <img
+  src="Tests/home1.png"
+  alt="Alt 2"
+  title="img"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">  
+  
+<img
+  src="Tests/home2.png"
+  alt="Alt 2"
+  title="img"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">  
+  
  <img
   src="Tests/matlab_view1.png"
+  alt="Alt 2"
+  title="img"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  
+ <img
+  src="Tests/matlab_view2.png"
   alt="Alt 2"
   title="img"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
