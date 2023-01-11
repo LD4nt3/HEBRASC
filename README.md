@@ -16,10 +16,10 @@ My Environment OS: Raspberry Pi OS Python: 3.8.12 PyTorch: 1.13.0 OpenCV-Python
   title="Dep"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
   
-  
+  # Model
   <img
   src="CAD MODELS/v2/Arm_V2-1.png"
-  alt="Alt 1"
+  alt="Alt 2"
   title="Dep"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
   
