@@ -8,7 +8,7 @@ My Environment OS: Raspberry Pi OS Python: 3.8.12 PyTorch: 1.13.0 OpenCV-Python
   src="Tests/Detection.png"
   alt="Alt"
   title="Det"
-  style="display: inline-block; margin: 0 auto; max-width: 10px">
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
   
 <img
   src="Tests/depth.png"
@@ -27,13 +27,13 @@ My Environment OS: Raspberry Pi OS Python: 3.8.12 PyTorch: 1.13.0 OpenCV-Python
   src="CAD MODELS/v2/ArmV2(physical-1).jpeg"
   alt="Alt 2"
   title="img"
-  style="display: inline-block; margin: 0 auto; max-width: 100px">
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
   
 <img
   src="CAD MODELS/v2/ArmV2(physical-2).jpeg"
   alt="Alt 2"
   title="img"
-  style="display: inline-block; margin: 0 auto; max-width: 100px">
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
   
   # More details
   -Matlab 3d Visualisation:
