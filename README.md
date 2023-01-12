@@ -10,7 +10,7 @@ My Environment OS: Raspberry Pi OS Python: 3.8.12 PyTorch: 1.13.0 OpenCV-Python
   title="Det"
   width="444"
   height="444"
-  margin: 0 auto;>
+  >
   
 <img
   src="Tests/depth.png"
