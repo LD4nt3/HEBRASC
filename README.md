@@ -37,10 +37,14 @@ My Environment OS: Raspberry Pi OS Python: 3.8.12 PyTorch: 1.13.0 OpenCV-Python
   
   # More details
   -Matlab 3d Visualisation:
-  cyan link=base
-  black link=shoulder
-  yellow link=elbow
-  purple link=wrist/end effector
+  
+  *cyan link=base
+  
+  *black link=shoulder
+  
+  *yellow link=elbow
+  
+  *purple link=wrist/end effector
 
  <img
   src="Tests/home1.png"
