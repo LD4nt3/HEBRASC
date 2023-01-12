@@ -8,32 +8,32 @@ My Environment OS: Raspberry Pi OS Python: 3.8.12 PyTorch: 1.13.0 OpenCV-Python
   src="Tests/Detection.png"
   alt="Alt"
   title="Det"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto;width="128" height="128"">
   
 <img
   src="Tests/depth.png"
   alt="Alt 1"
   title="Dep"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto;width="128" height="128"">
   
   # Model/Arm
 <img
   src="CAD MODELS/v2/Arm_V2-1.png"
   alt="Alt 2"
   title="img"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto;width="128" height="128"">
   
 <img
   src="CAD MODELS/v2/ArmV2(physical-1).jpeg"
   alt="Alt 2"
   title="img"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto;width="128" height="128"">
   
 <img
   src="CAD MODELS/v2/ArmV2(physical-2).jpeg"
   alt="Alt 2"
   title="img"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto;width="128" height="128"">
   
   # More details
   -Matlab 3d Visualisation:
@@ -50,29 +50,29 @@ My Environment OS: Raspberry Pi OS Python: 3.8.12 PyTorch: 1.13.0 OpenCV-Python
   src="Tests/home1.png"
   alt="Alt 2"
   title="img"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">  
+  style="display: inline-block; margin: 0 auto;width="128" height="128"">  
   
 <img
   src="Tests/home2.png"
   alt="Alt 2"
   title="img"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">  
+  style="display: inline-block; margin: 0 auto;width="128" height="128"">  
   
  <img
   src="Tests/matlab_view1.png"
   alt="Alt 2"
   title="img"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto;width="128" height="128"">
   
  <img
   src="Tests/matlab_view2.png"
   alt="Alt 2"
   title="img"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto;width="128" height="128"">
   
 -Model Precision
  <img
   src="Tests/model_precision2.png"
   alt="Alt 2"
   title="img"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto;width="128" height="128"">
