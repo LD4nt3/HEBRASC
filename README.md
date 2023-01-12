@@ -69,6 +69,7 @@ My Environment OS: Raspberry Pi OS Python: 3.8.12 PyTorch: 1.13.0 OpenCV-Python
   alt="Alt 2"
   title="img"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
+  
 -Model Precision
  <img
   src="Tests/model_precision2.png"
