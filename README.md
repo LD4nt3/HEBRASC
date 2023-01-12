@@ -8,7 +8,7 @@ My Environment OS: Raspberry Pi OS Python: 3.8.12 PyTorch: 1.13.0 OpenCV-Python
   src="Tests/Detection.png"
   alt="Alt"
   title="Det"
-  style="display: inline-block; margin: 0 auto;width="128" height="128"">
+  style="display: inline-block; margin: 0 auto; width="128"; height="128">
   
 <img
   src="Tests/depth.png"
