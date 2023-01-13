@@ -6,7 +6,6 @@ theta2=0;
 theta3=0;
 theta4=-90;
 theta5=0;
-
 %%%%%%% Fijos/fixed %%%%%%%%%
 %Links sizes and starting denavit angles
 d1=60;
@@ -19,7 +18,6 @@ d3=90
 d5=27;
 dc6=60;
 d5=dc6+d5
-
 %%%%%%% 3D visualisation %%%%%%%%%
 %{
 *Cyan link= Base
