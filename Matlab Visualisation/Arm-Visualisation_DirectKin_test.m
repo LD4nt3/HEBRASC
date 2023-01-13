@@ -9,7 +9,6 @@ theta5=0;
 
 %%%%%%% Fijos/fixed %%%%%%%%%
 %Links sizes and starting denavit angles
-
 d1=60;
 db=3.8;%offset1 value from the base link
 db2=9.8;%offset2 
@@ -21,10 +20,7 @@ d5=27;
 dc6=60;
 d5=dc6+d5
 
-kk=0.05;
-
 %%%%%%% 3D visualisation %%%%%%%%%
-
 %{
 *Cyan link= Base
 
@@ -36,6 +32,7 @@ kk=0.05;
 %}
 
 %%%%%%% Denavit-Hartenberg %%%%%%%%%
+kk=0.05;
 A0 = [0 1 0 0;0 0 1 0;0 0 0 1];
 %%A= [d r'ó'a a~ 0;tz tx rx Rz;];
 R06 = [0 1 0;
