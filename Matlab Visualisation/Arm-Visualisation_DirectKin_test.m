@@ -22,6 +22,19 @@ dc6=60;
 d5=dc6+d5
 
 kk=0.05;
+
+%%%%%%% 3D visualisation %%%%%%%%%
+
+%{
+*Cyan link= Base
+
+*Black link= Hombro/shoulder
+
+*Yellow link= Codo/elbow
+
+*Purple link= Muñeca-efector final/wrist-end effector
+%}
+
 %%%%%%% Denavit-Hartenberg %%%%%%%%%
 A0 = [0 1 0 0;0 0 1 0;0 0 0 1];
 %%A= [d r'ó'a a~ 0;tz tx rx Rz;];
@@ -43,8 +56,7 @@ A2 = Rz(90+theta2)*Tx(d2*kk)
 T2 = T2x*A2;%k<--1- a - 2;
 A3 = Rz(-90+theta3)*Tx(d3*kk)
 T3 = T2*A3
-%{
-%}
+
 O0C=T3(1:3,4:4)
 o06=O0C+d5*kk*R06*[1;0;0];
 

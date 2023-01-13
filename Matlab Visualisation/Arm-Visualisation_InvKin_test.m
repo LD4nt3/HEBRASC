@@ -25,6 +25,19 @@ dc6=60;
 d5=dc6+d5
 
 kk=0.05;
+
+%%%%%%% 3D visualisation %%%%%%%%%
+
+%{
+*Cyan link= Base
+
+*Black link= Hombro/shoulder
+
+*Yellow link= Codo/elbow
+
+*Purple link= Muñeca-efector final/wrist-end effector
+%}
+
 %%%%%%% Denavit-Hartenberg %%%%%%%%%
 
 A0 = [0 1 0 0;0 0 1 0;0 0 0 1];
