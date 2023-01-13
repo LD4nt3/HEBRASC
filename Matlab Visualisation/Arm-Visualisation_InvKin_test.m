@@ -36,13 +36,8 @@ d5=dc6+d5
 kk=0.05;
 A0 = [0 1 0 0;0 0 1 0;0 0 0 1];
 
-
-
-
-
 Xmy=abs((x-310)*1.45)
 Ymx=abs((y-444)*1.09)
-
 
 if x<310
 Xmy=-Xmy;
@@ -120,7 +115,7 @@ for x=-90:45:180
    end
 end
 
-t4=wrapTo360(t4);%?
+t4=wrapTo360(t4);
 if  t4>180
    t4=360-t4;
 end
