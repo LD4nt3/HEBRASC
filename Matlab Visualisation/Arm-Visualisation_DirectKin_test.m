@@ -1,15 +1,18 @@
 clc; close all; clear;
-%%%%%%% Variables %%%%%%%%
-
+%%%%%%% Variables/Direct kinematics %%%%%%%%
+%Valores para las articulaciones en angulos/Values for joints in angle units
 theta1=0
-theta2=0.0;
-theta3=0.0;
-
-theta4=-90;%f -60 30
+theta2=0;
+theta3=0;
+theta4=-90;
 theta5=0;
+
+%%%%%%% Fijos/fixed %%%%%%%%%
+%Links sizes and starting denavit angles
+
 d1=60;
-db=3.8;
-db2=9.8;
+db=3.8;%offset1 value from the base link
+db2=9.8;%offset2 
 d1=db2+d1
 d2=126
 d4=-20;
@@ -17,8 +20,6 @@ d3=90
 d5=27;
 dc6=60;
 d5=dc6+d5
-%d4=6;
-%%%%%%% Fijos %%%%%%%%%
 
 kk=0.05;
 %%%%%%% Denavit-Hartenberg %%%%%%%%%

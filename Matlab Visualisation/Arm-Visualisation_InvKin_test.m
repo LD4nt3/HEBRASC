@@ -1,21 +1,21 @@
-clc; close all; clear;
-
-%%%%%%% Variables %%%%%%%%
+close all; clear; clc;
+%%%%%%% Variables/Inverse kinematics %%%%%%%%
+%Coordinadas objetivo/Target coordinates
+x=452;
+y=395;
+z=1;
+%%%%%%% Fijos/fixed(home) %%%%%%%%%
 theta1=0;
 theta2=0;
 theta3=0;
 theta5=0;
 theta4=-90;
-%%%%%%% Fijos %%%%%%%%%
-d1=6.4;
-d2=16.3;
-d3=12.4;
-d4=0;
-d5=8.9;
+
+%Links sizes and starting denavit angles
 
 d1=60;
-db=3.8;
-db2=9.8;
+db=3.8;%offset1 value from the base link
+db2=9.8;%offset2 
 d1=db2+d1
 d2=126
 d4=20;
@@ -32,8 +32,6 @@ A0 = [0 1 0 0;0 0 1 0;0 0 0 1];
 
 
 
-x=452;
-y=395;
 
 Xmy=abs((x-310)*1.45)
 Ymx=abs((y-444)*1.09)
@@ -51,7 +49,7 @@ R06 = [0 1 0;
 
 o06 =[Xmy*kk;% Eje X
     Ymx*kk;% Eje y
-    1*kk;]% Eje z
+    z*kk;]% Eje z
 
     
 
@@ -145,6 +143,8 @@ else
 end
 
 error
+
+%Output angles
 t1
 t2
 t3
